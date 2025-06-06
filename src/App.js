@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to Verca</h1>
+        <h1>Welcome to Verca TEST</h1>
         <p>Connecting businesses with their communities.</p>
         <button>Get Started</button>
       </header>
