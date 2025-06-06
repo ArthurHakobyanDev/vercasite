@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 import Section from './components/Section';
+import Header from './components/Header';
+
 
 function App() {
   return (
     <div className="App">
+      <Header /> 
       <header className="hero">
         <h1>Where Businesses and Customers Come Together</h1>
         <p>Grow a Thriving Community. Boost Your Sales</p>

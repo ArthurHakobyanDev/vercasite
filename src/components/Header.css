@@ -1,0 +1,18 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #14121E;
+    padding: 20px 40px;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
