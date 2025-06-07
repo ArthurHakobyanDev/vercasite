@@ -3,13 +3,17 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div className="header">
-      <div className="logo">VERCA</div>
-      <div className="header-buttons">
-        <button className="contact-button">Contact Us</button>
-        <button className="link-button">Product Policy</button>
+    <header className="header">
+      <div className="header-container">
+        <div className="logo">
+          <span className="logo-highlight">VER</span>CA
+        </div>
+        <nav className="header-nav">
+          <button className="nav-link">Product Policy</button>
+          <button className="nav-button">Contact Us</button>
+        </nav>
       </div>
-    </div>
+    </header>
   );
 };
 
