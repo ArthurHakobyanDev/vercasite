@@ -1,23 +1,43 @@
 .policy-container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 80px auto;
     padding: 0 24px;
     font-family: 'Inter', sans-serif;
-    color: #14121E;
+    background-color: transparent;
+    color: #f1f1f1;
+  }
+  
+  .policy-columns {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .policy-left {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .policy-right {
+    flex: 1.5;
+    min-width: 300px;
   }
   
   .policy-title {
     font-size: 2.75rem;
     font-weight: 700;
-    margin-bottom: 28px;
-    color: #000;
+    margin-bottom: 24px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.4; /* added */
   }
   
   .policy-intro {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    color: #333;
-    margin-bottom: 60px;
+    font-size: 1.25rem;
+    line-height: 2; /* improved legibility */
+    color: #dddddd;
     text-align: left;
   }
   
@@ -26,15 +46,28 @@
   }
   
   .policy-section h2 {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     font-weight: 600;
-    margin-bottom: 12px;
-    color: #14121E;
+    margin-bottom: 16px;
+    color: #ffffff;
+    border-left: 3px solid #ffffff;
+    padding-left: 10px;
+    line-height: 1.6; /* added */
   }
   
   .policy-section p {
-    font-size: 1.05rem;
-    line-height: 1.75;
-    color: #333;
+    font-size: 1.125rem;
+    line-height: 2; /* increased for better reading */
+    color: #dddddd;
+  }
+  
+  @media (max-width: 768px) {
+    .policy-columns {
+      flex-direction: column;
+    }
+  
+    .policy-left, .policy-right {
+      width: 100%;
+    }
   }
   
