@@ -85,12 +85,7 @@ body {
   box-shadow: 0 4px 15px rgba(98, 70, 234, 0.4);
 }
 
-.hero-image {
-  margin-top: 20px;
-  width: 200px; /* or use max-width: 100% for responsiveness */
-  height: auto;
-  display: block;
-}
+
 
 .hero-cta:hover {
   background-color: var(--hover-accent);
