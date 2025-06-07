@@ -3,12 +3,12 @@
   top: 0;
   width: 100%;
   background-color: #14121E;
-  padding: 20px 40px;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Push left and right apart */
   z-index: 1000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  display: flex;
-  justify-content: space-between; /* or flex-start if you only have logo */
-  align-items: center;
 }
 
 .logo {
@@ -17,4 +17,25 @@
   color: white;
   font-weight: 600;
   letter-spacing: 1px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.header-button {
+  background-color: white;
+  color: #14121E;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header-button:hover {
+  background-color: #e2e2e2;
 }
