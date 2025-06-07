@@ -6,6 +6,9 @@
   padding: 20px 40px;
   z-index: 1000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: space-between; /* or flex-start if you only have logo */
+  align-items: center;
 }
 
 .logo {
