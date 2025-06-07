@@ -12,7 +12,6 @@ const Section = ({ image, title, headline, description, reverse }) => {
           <span className="section-label">{title}</span>
           <h2 className="section-headline">{headline}</h2>
           <p className="section-description">{description}</p>
-          <button className="section-cta">Learn more</button>
         </div>
       </div>
     </section>
