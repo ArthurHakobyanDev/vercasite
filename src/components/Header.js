@@ -6,8 +6,8 @@ const Header = () => {
     <div className="header">
       <div className="logo">VERCA</div>
       <div className="header-buttons">
-        <button className="header-button">Contact Us</button>
-        <button className="header-button">Product Policy</button>
+        <button className="contact-button">Contact Us</button>
+        <button className="link-button">Product Policy</button>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@
   padding: 16px 40px;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Push left and right apart */
+  justify-content: space-between;
   z-index: 1000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -21,21 +21,41 @@
 
 .header-buttons {
   display: flex;
-  gap: 12px;
+  gap: 14px;
 }
 
-.header-button {
+/* Contact Us – Prominent White Button */
+.contact-button {
   background-color: white;
   color: #14121E;
   border: none;
-  padding: 8px 16px;
+  padding: 8px 18px;
   border-radius: 8px;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
+  font-size: 0.95rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.25s ease;
 }
 
-.header-button:hover {
-  background-color: #e2e2e2;
+.contact-button:hover {
+  background-color: #f0f0f0;
 }
+
+/* Product Policy – Subtle White Link */
+.link-button {
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+
+.link-button:hover {
+  color: #d4d4d4;
+}
+
