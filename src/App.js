@@ -13,7 +13,7 @@ function App() {
           <h1 className="hero-title">Where Businesses and Customers Come Together</h1>
           <p className="hero-subtitle">Grow a Thriving Community. Boost Your Sales</p>
           <button className="hero-cta">Get Started</button>
-          <img src="/1.png" alt="Hero Visual" className="hero-image" />
+          {/* <img src="/1.png" alt="Hero Visual" className="hero-image" /> */}
         </div>
       </section>
 
