@@ -15,7 +15,9 @@ const Header = () => {
           <button className="nav-link" onClick={() => navigate('/product-policy')}>
             Product Policy
           </button>
-          <button className="nav-button">Contact Us</button>
+          <a className="nav-button" href="mailto:arthurhakobyan1@gmail.com">
+            Contact Us
+          </a>
         </nav>
       </div>
     </header>
