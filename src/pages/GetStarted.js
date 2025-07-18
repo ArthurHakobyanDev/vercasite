@@ -22,7 +22,7 @@ const GetStarted = () => {
           <p>
             If you're a business interested in being one of our early partners, we’d love to connect. We’re onboarding select businesses to help shape the platform and offer exclusive early access perks.
           </p>
-          <a href="mailto:arthurhakobyan1@gmail.com" className="get-started-button">
+          <a href="mailto:support@appverca.com" className="get-started-button">
             Contact Us to Get Started
           </a>
         </div>
